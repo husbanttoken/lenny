@@ -8,7 +8,7 @@ body {
     background-size: 100% auto; 
     background-repeat: no-repeat;
     color: rgb(57, 219, 57);
-    font-family:'Courier New', Courier, monospace monospace;
+    font-family: Arial, SANS-SERIF;
     font-size: 2em;
     animation: fade-in 2s;
     /* text-shadow: -0.06em 0 0.5px rgba(255, 200, 100, 0.9); */
@@ -20,6 +20,7 @@ body {
 
 h1 {
     font-size: 3em;
+    font-weight: 100;
 } 
 
 .glow {
