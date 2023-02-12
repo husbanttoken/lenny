@@ -36,8 +36,16 @@
         <b>Phase #5</b>
         💵 Fake Community Takeover / Dev wakes up
          </marquee>
-          
+          <marquee scrollamount="4">Golden Eye 007 Watch Theme<audio controls="" id="music" autoplay="" class="audioplayer" name="media"><source src="imgs/Golden Eye 007 Watch Theme.mp3" type="audio/mpeg"></audio>
+          </marquee>
     </main>
 	<script src="index.js"></script>
   </body>
+  <script type="text/javascript">
+      document.addEventListener('click', function() { 
+          let audio = document.getElementById('music');
+          audio.volume = 0.2;
+          audio.play() },
+          { once: true });
+    </script>
 </html>
